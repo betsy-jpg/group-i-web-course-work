@@ -1,0 +1,102 @@
+/* .display-1{
+    text-align: center;
+
+} */
+.text-center{
+    display: block;
+    font-display: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-info{
+    align-content: center;
+}
+
+.company{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hrule{
+    color: solid grey;
+}
+
+
+/* new style for new cards */
+body {
+            background-color: #f8f9fa;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: pink;
+            border-radius: 10px;
+        }
+        .image {
+            max-width: 1200px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: #2c3e50;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .card-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .img {
+            height: 10px;
+        }
+        .card-text {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            border: none;
+            width: 100%;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        .card{
+            display: flex;
+        }

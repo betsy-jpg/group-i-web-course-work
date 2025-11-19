@@ -151,10 +151,12 @@ nav ul li a.active{
     background-color: beige;
 }
 footer{
-    justify-content: center;
+    position: fixed;
     background-color: burlywood;
-    margin-top: auto;
-    justify-items: center;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
 
 

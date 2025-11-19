@@ -100,3 +100,72 @@ body {
         .card{
             display: flex;
         }
+
+       *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-style: arial, sans serif;
+}
+
+nav{
+    background-color:burlywood;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end ;
+}
+
+.img{
+   border-radius: 30px top;
+   margin: 6px black solid;
+   justify-content: space-between;
+}
+
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+color: green;
+text-decoration: none;
+font-size: 16px;
+padding: 8px;
+border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: brown;
+}
+
+nav ul li a.active{
+    background-color: beige;
+}
+footer{
+    justify-content: center;
+    background-color: burlywood;
+    margin-top: auto;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

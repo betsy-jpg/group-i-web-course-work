@@ -150,7 +150,7 @@ nav ul li a:hover{
 nav ul li a.active{
     background-color: beige;
 }
-footer{
+.footer{
     position: fixed;
     background-color: burlywood;
     bottom: 0;

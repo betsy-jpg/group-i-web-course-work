@@ -29,8 +29,9 @@ body {
         .footer {
             max-width: 1200px;
             margin: 0 auto;
-            background-color: pink;
+            background-color: rgb(125, 114, 116);
             border-radius: 10px;
+            text-align: center;
         }
         .image {
             max-width: 1200px;
@@ -100,3 +101,34 @@ body {
         .card{
             display: flex;
         }
+        footer{
+    background-color: darkcyan;
+    text-align: center;
+    text-shadow: 0cqh;
+    text-decoration: solid;
+}
+.nav-link:hover{
+    color:blueviolet;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: blueviolet;
+    box-shadow: 10px 20px rgb(104, 84, 122);
+    transform: translateY(-20px);
+}
+.cards{
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+.card-footer{
+    background-color:darkgreen;
+}
+.small-cards2:hover{
+    background-color: rgb(51, 220, 220);
+    transform: translateY(-20px);
+    box-shadow: magenta;
+}
+.small-cards{
+    justify-content: space-around;
+    background-color: darkcyan;
+}

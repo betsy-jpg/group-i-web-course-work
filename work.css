@@ -101,13 +101,13 @@ body {
             margin-bottom: 15px;
         }
         
-        .btn-primary {
+        /* .btn-primary {
             background-color: #3498db;
             border: none;
             width: 100%;
-        }
+        } */
         
-        .btn-primary:hover {
+        /* .btn-primary:hover {
             background-color: #2980b9;
         }
         .card{
@@ -116,14 +116,14 @@ body {
         footer{
     background-color: white;
     text-align: center;
-    text-shadow: 0cqh;
-    text-decoration: solid;
+    text-shadow: 0cqh; */
+    /* text-decoration: solid;
 }
 .nav-link:hover{
     color:blueviolet;
     border-radius: 10px;
-}
-.card:hover{
+} */
+/* .card:hover{
     background-color: blueviolet;
     box-shadow: 10px 20px rgb(104, 84, 122);
     transform: translateY(-20px);
@@ -131,8 +131,8 @@ body {
 .cards{
     justify-content: space-between;
     background-color: blanchedalmond;
-}
-.card-footer{
+} */
+/* .card-footer{
     background-color:darkgreen;
 }
 .small-cards2:hover{
@@ -140,10 +140,10 @@ body {
     transform: translateY(-20px);
     box-shadow: magenta;
 }
-.small-cards{
-    justify-content: space-around;
+.small-cards{ */
+    /* justify-content: space-around;
     background-color: darkcyan;
-}
+} */
 
 
         * {

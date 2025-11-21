@@ -1,7 +1,4 @@
-/* .display-1{
-    text-align: center;
 
-} */
 .text-center{
     display: block;
     font-display: auto;
@@ -102,7 +99,7 @@ body {
             display: flex;
         }
         footer{
-    background-color: darkcyan;
+    background-color: white;
     text-align: center;
     text-shadow: 0cqh;
     text-decoration: solid;
@@ -141,7 +138,7 @@ body {
 }
 
 body {
-background-color: antiquewhite;
+background-color: white;
 }
 
 .contact-section{
@@ -227,7 +224,7 @@ justify-content: space-around;
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color:burlywood;
+    background-color:pink;
 }
 .ptravel{
     margin-left: 20px;
@@ -316,7 +313,7 @@ justify-content: space-around;
 }
 
 nav{
-    background-color:burlywood;
+    background-color:pink;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -357,7 +354,7 @@ nav ul li a.active{
 }
 footer{
     position: fixed;
-    background-color: burlywood;
+    background-color: pink;
     bottom: 0;
     text-align: center;
     padding: 10px;

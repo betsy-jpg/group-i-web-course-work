@@ -43,20 +43,20 @@
     </div>
     <p>&copy; 2025 Africa Tours and Travel Kampala </p>
     <p>All rights reserved</p>
-    </footer>
-<!--Popup-->
-<div id="bookingform" class="popup-form" style="display:none;">
-    <div class ="form-container">
-        <h2>Book your stay</h2>
+</footer>
+
 <form id="credentials-form">
     <input type="text" id="name" placeholder="Full Name" required><br>
     <input type="email" id="email" placeholder="Email" required><br>
     <input type="tel" id="number" placeholder="Tel" required><br>
-<button type="submit" >Submit</button>
+<button type="submit" >Book</button>
     <button type="button" onclick="hideForm()">Cancel</button>
-</form>
+</form><div id="bookingform">
+        <h2>Book your stay</h2>
+    <p>your bookin has been confirmed</p>
+    <button onclick="hideForm()">Close</button>
 </div>
-</div>
+        
 <script>
     function showForm(place) {
         document.getElementById('bookingForm').style.display = 'flex';
@@ -67,7 +67,7 @@
             let phone = document.getElementById('phone').value;
         alert('Booking confirmed for ${name} at ${place}.\nDetails: ${email}, ${phone}');
           hideForm();
-        };
+        }
     }
     function hideForm() {
         document.getElementById('bookingForm').style.display = 'none';

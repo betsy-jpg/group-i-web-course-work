@@ -45,13 +45,14 @@
     <p>All rights reserved</p>
 </footer>
 
-<form id="credentials-form">
+<form id="credentials-form" class="show-form">
     <input type="text" id="name" placeholder="Full Name" required><br>
     <input type="email" id="email" placeholder="Email" required><br>
     <input type="tel" id="number" placeholder="Tel" required><br>
 <button type="submit" >Book</button>
-    <button type="button" onclick="hideForm()">Cancel</button>
-</form><div id="bookingform">
+</form>
+    <button onclick=" document.getElementById('credentials-form').classList.toggle('hide-form')">Toggle Form</button>
+    <div id="bookingform">
         <h2>Book your stay</h2>
     <p>your bookin has been confirmed</p>
     <button onclick="hideForm()">Close</button>

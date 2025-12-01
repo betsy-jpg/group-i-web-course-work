@@ -1,65 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GALLERY</title>
-    <link rel="stylesheet" href="https://betsy-jpg.github.io/group-i-web-course-work/work.css">
-<!--nav bar starts-->
-<nav class="navbar navbar-expand-lg bg-danger mb-2">
-<div class="container-fluid">
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="collapse navbar-collapse" id="navbarNav"></ul>
-        <ul>
-        <li><a href="https://betsy-jpg.github.io/group-i-web-course-work/index.html">Home Page</a></li>
-        <li><a href="https://betsy-jpg.github.io/group-i-web-course-work/about us.html">About us</a></li>
-        <li><a href="https://betsy-jpg.github.io/group-i-web-course-work/contact.html">Contact us</a></li>
-        <li><a href="https://betsy-jpg.github.io/group-i-web-course-work/gallery.html">Gallery</a></li>
-        </ul>
-    <!--navbar ends-->
-</div>
-</nav>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Tourism in Uganda</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #2c3e50;
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #f39c12;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover,
+    .gallery img.active {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-<div class="img">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img10.jpg" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img7.jpg" width="300px" height="300px" alt="image" class="image-hover"> 
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img5.jpg" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img13.jpg" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img30.webp" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img6.jpg" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/img17.jpeg" width="300px" height="300px" alt="image" class="image-hover">
-    <img src="https://betsy-jpg.github.io/group-i-web-course-work/images/home/OIP1.webp" width="300px" height="300px" alt="image" class="image-hover">
-</div>
-<footer style="background-color: burlywood; margin-top: auto;">
-    <div>
-        <p>NAKASI STELLA</p>
-        <p>REG NO:2020-B291-13180</p>
-        <p>BSc in Computer Science</p>
-    </div>
-    <p>&copy; 2025 Africa Tours and Travel Kampala </p>
-    <p>All rights reserved</p>
-</footer>
 
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="blog.html">Blog Posts</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
 
-<div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label ">Full Names</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
-        </div>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Murchison_Falls_Uganda.jpg" alt="Murchison Falls">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Bwindi_Impenetrable_Forest.jpg" alt="Bwindi Forest">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Kampala_Skyline.jpg" alt="Kampala Skyline">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Lake_Victoria_Uganda.jpg" alt="Lake Victoria">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Queen_Elizabeth_National_Park.jpg" alt="Queen Elizabeth National Park">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Source_of_the_Nile_Jinja.jpg" alt="Source of the Nile">
+  </section>
 
-<div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Email</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
-        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tourism Uganda | All Rights Reserved</p>
+  </footer>
 
-<div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contact</label>
-            <input type="text" class="form-control" id="exampleInputPassword1">
-        </div>
+  <!-- JavaScript -->
+  <script>
+    // Add click/tap effect to images
+    document.querySelectorAll('.gallery img').forEach(img => {
+      img.addEventListener('click', () => {
+        // Toggle the "active" class
+        img.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
 
    
 </body>

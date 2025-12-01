@@ -323,8 +323,18 @@ justify-content: space-around;
     padding: 0;
     box-sizing: border-box;
 }
-.body{
-    font-style: arial, sans serif;
+
+    
+    
+body {
+   border-radius: 8px solid;
+    padding: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    text-align: center;
+    justify-content: center;
+font-style: arial, sans serif;
+}
 }
 
 nav{
@@ -401,9 +411,10 @@ footer{
 #credentials-form button[type="submit"]:hover {
     background-color: #3e8e41;
 }
-#bookingForm {
+.bookingform {
     display: none;
-    position: fixed;
+    /*position: fixed;*/
+    
     top: 0;
     left: 0;
     height: 100%;
@@ -422,6 +433,27 @@ footer{
 }
     
 
+
+
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 17px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+
+}
+
+.mb.3{
+    font: size 20px;
+}
 
 
 
